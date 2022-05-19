@@ -1,0 +1,178 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  box-sizing: border-box;
+}
+
+
+
+.fnd{
+  height: 100vh;
+  width: 100%;
+  background-image: linear-gradient(rgba(0, 0, 0, .50) 0%, rgba(0,0,0,.50) 100%), url(../proyect_ia/img/fondo.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.wave{
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+.fnd section{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  width: 100%;
+}
+
+li a{
+  color: white;
+  text-decoration: none;
+  font-family: 'Amatic SC', cursive;
+  font-size: 30px;
+  padding: 2px 5px;
+}
+
+li a:hover{
+  color: rgb(115, 161, 214);
+  font-weight: 800;
+ 
+}
+.head a img{
+  width: 400px;
+  margin: 0 80px;
+  
+}
+.head nav{
+  background-color: rgba(0, 0, 0, 0.801);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 0rem;
+}
+.head nav ul{
+  display: inline-flex;
+  align-items: center;
+  margin: 0 100px 0 50px;
+}
+header nav li{
+  margin-right: 1.5rem;
+}
+
+.fnd div h3{
+  font-family: 'Oleo Script Swash Caps', cursive;
+  color: white;
+  text-align: center;
+  font-size: 70px;
+  justify-content: center;
+  
+}
+.fnd div h1{
+  font-size: 40px;
+  font-family: 'Zen Loop', cursive;
+  color: rgb(137, 106, 167);
+  font-weight: 800;
+  background-color: rgba(7, 7, 7, 0.884);
+  padding: 2px 10px;
+  text-align: center;
+}
+/*rgb(137, 106, 167)*/
+.recono{
+  background-color: rgb(0, 0, 0);
+  width: 100%;
+  height: auto;
+  background-image: linear-gradient(rgba(0, 0, 0, .50) 0%, rgba(0, 0, 0, 0.445) 100%), url(../proyect_ia/img/fondo.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: inline-block;
+  text-align: center;
+}
+.divs{
+  background-color: rgba(92, 59, 126, 0.849);
+  display: flex;
+  justify-content: center;
+
+}
+.div-img{
+  width:250px; /* or whatever width you want. */
+  max-width:250px; /* or whatever width you want. */
+  display: inline-block;
+  margin: 10px;
+  padding: 20px 20px;
+  
+}
+.div-img img{
+  width: 200px;
+  height: 200px;
+  padding: 0;
+}
+.div-img h1{
+  font-family: 'Zen Loop', cursive;
+  color: rgb(255, 255, 255);
+  font-size: 30px;
+  font-weight: 800;
+  text-align: center;
+}
+
+.div-img button{
+  background-color: rgba(155, 119, 190, 0.849);
+  font-family: 'Zen Loop', cursive;
+  font-size: 25px;
+  border: solid 3px rgba(92, 59, 126, 0.849);
+  font-weight: 800;
+  border-radius: 20px;
+  display: flex;
+  margin: auto;
+  text-align: center;
+  justify-content: center;
+  width: 200px;
+  min-width: max-content;
+  margin-bottom: 35px;
+  padding: 0;
+}
+.div-img button a{
+  text-decoration: none;
+  color: black;
+}
+.div-img button:hover{
+  background-color: rgb(115, 161, 214);
+  font-family: 'Zen Loop', cursive;
+  font-size: 25px;
+  border: solid 3px rgb(49, 104, 167);
+  font-weight: 800;
+  border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+}
+.div-son{
+  width:250px; /* or whatever width you want. */
+  max-width:250px; /* or whatever width you want. */
+  display: inline-block;
+  margin: 10px;
+  padding: 20px 20px;
+}
+.div-son img{
+  width: 200px;
+  height: 200px;
+}
+.div-pos{
+  width:250px; /* or whatever width you want. */
+  max-width:250px; /* or whatever width you want. */
+  display: inline-block;
+  margin: 20px;
+  padding: 20px 30px;
+}
+.div-pos img{
+  width: 200px;
+  height: 200px;
+}
+.wave{
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+

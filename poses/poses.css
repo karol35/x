@@ -1,0 +1,278 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  box-sizing: border-box;
+}
+
+
+
+.fnd {
+  height: 100vh;
+  width: 100%;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.50) 0%, rgba(0, 0, 0, 0.671) 100%), url(../Analisis/img/fondo.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.fnd section {
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+  width: 100%;
+}
+
+
+li a {
+  color: white;
+  text-decoration: none;
+  font-family: 'Amatic SC', cursive;
+  font-size: 30px;
+  padding: 2px 5px;
+}
+
+li a:hover {
+  color: rgb(115, 161, 214);
+  font-weight: 800;
+  font-weight: 800;
+  border-radius: 10px;
+}
+
+.head a img {
+  width: 400px;
+  margin: 0 80px;
+
+}
+
+.head nav {
+  background-color: rgba(0, 0, 0, 0.904);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 0rem;
+}
+
+.head nav ul {
+  display: inline-flex;
+  align-items: center;
+  margin: 0 100px 0 50px;
+}
+
+header nav li {
+  margin-right: 1.5rem;
+
+}
+
+.div-img {
+  width: 600px;
+  /* or whatever width you want. */
+  max-width: 100%;
+  /* or whatever width you want. */
+  display: inline-block;
+  margin: 10px;
+  padding: 20px 20px;
+  background-size: cover;
+
+}
+
+
+.div-imag {
+  font-family: 'Zen Loop', cursive;
+  color: rgb(255, 255, 255);
+  font-size: 50px;
+  font-weight: 800;
+  text-align: center;
+  margin: 7.5rem 7rem 0 5rem;
+
+}
+
+button.btn {
+  background-color: rgba(155, 119, 190, 0.849);
+  font-family: 'Zen Loop', cursive;
+  font-size: 25px;
+  border: solid 3px rgba(92, 59, 126, 0.849);
+  font-weight: 800;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  display: flex;
+  margin: auto;
+  margin-bottom: 35px;
+}
+
+button.btn:hover {
+  background-color: rgb(115, 161, 214);
+  font-family: 'Zen Loop', cursive;
+  font-size: 25px;
+  border: solid 3px rgb(49, 104, 167);
+  font-weight: 800;
+  border-radius: 10px;
+}
+
+#label-container div {
+  font-family: 'Zen Loop', cursive;
+  font-size: 25px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin: 5px 0;
+  font-weight: 600;
+  border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+}
+canvas#canvas{
+  border: none;
+  border-radius: none;
+  -webkit-border-radius: none;
+  -moz-border-radius: none;
+  -ms-border-radius: none;
+  -o-border-radius: none;
+}
+
+canvas {
+  border-radius: 100px;
+  -webkit-border-radius: 100px;
+  -moz-border-radius: 100px;
+  -ms-border-radius: 100px;
+  -o-border-radius: 100px;
+  border: solid 4px rgba(78, 29, 128, 0.918);
+  float: left;
+  margin: 0 20px;
+}
+
+canvas:hover {
+  border-radius: 100px;
+  -webkit-border-radius: 100px;
+  -moz-border-radius: 100px;
+  -ms-border-radius: 100px;
+  -o-border-radius: 100px;
+  border: solid 4px rgba(115, 161, 214, 0.849);
+}
+
+#label-container div:first-child {
+  text-align: center;
+  background-color: palevioletred;
+  padding: 0;
+}
+#label-container div:first-child:hover {
+  text-align: center;
+  background-color: rgba(255, 255, 255, 0.877);
+  cursor: pointer;
+  padding: 0;
+}
+
+#label-container div:nth-child(2) {
+  text-align: center;
+  background-color: rgb(112, 213, 216);
+  color: black;
+  padding: 0;
+}
+
+#label-container div:nth-child(2):hover {
+  text-align: center;
+  background-color: rgba(255, 255, 255, 0.877);
+  cursor: pointer;
+  padding: 0;
+}
+
+#label-container div:nth-child(3) {
+  text-align: center;
+  background-color: rgb(112, 216, 121);
+  color: black;
+  padding: 0;
+}
+
+#label-container div:nth-child(3):hover {
+  text-align: center;
+  background-color: rgba(255, 255, 255, 0.877);
+  cursor: pointer;
+  padding: 0;
+}
+
+#label-container div:nth-child(4) {
+  text-align: center;
+  background-color: rgb(216, 174, 112);
+  color: black;
+  padding: 0;
+}
+
+#label-container div:nth-child(4):hover {
+  text-align: center;
+  background-color: rgba(255, 255, 255, 0.877);
+  cursor: pointer;
+  padding: 0;
+}
+#label-container div:nth-child(5) {
+  text-align: center;
+  background-color: rgb(210, 211, 140);
+  color: black;
+  padding: 0;
+}
+
+#label-container div:nth-child(5):hover {
+  text-align: center;
+  background-color: rgba(255, 255, 255, 0.877);
+  cursor: pointer;
+  padding: 0;
+}
+
+.fnd section {
+  align-items: center;
+  display: flex;
+}
+
+.redhom button {
+  float: left;
+  background-color: rgba(155, 119, 190, 0.849);
+  font-family: 'Zen Loop', cursive;
+  font-size: 25px;
+  border: solid 3px rgba(92, 59, 126, 0.849);
+  font-weight: 800;
+  border-radius: 10px;
+  padding: 2px 10px;
+}
+
+.redhom button:hover {
+  background-color: rgb(115, 161, 214);
+  font-family: 'Zen Loop', cursive;
+  font-size: 25px;
+  border: solid 3px rgb(49, 104, 167);
+  font-weight: 800;
+  border-radius: 10px;
+}
+
+.redhom button a {
+  text-decoration: none;
+  color: black;
+}
+
+.redson button {
+  float: left;
+  background-color: rgba(155, 119, 190, 0.849);
+  font-family: 'Zen Loop', cursive;
+  font-size: 25px;
+  border: solid 3px rgba(92, 59, 126, 0.849);
+  font-weight: 800;
+  border-radius: 10px;
+  padding: 2px 10px;
+}
+
+.redson button:hover {
+  background-color: rgb(115, 161, 214);
+  font-family: 'Zen Loop', cursive;
+  font-size: 25px;
+  border: solid 3px rgb(49, 104, 167);
+  font-weight: 800;
+  border-radius: 10px;
+}
+
+.redson button a {
+  text-decoration: none;
+  color: black;
+}

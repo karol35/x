@@ -1,0 +1,114 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  box-sizing: border-box;
+}
+
+
+
+.fnd {
+  height: 87vh;
+  width: 100%;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.50) 0%, rgba(0, 0, 0, 0.671) 100%), url(../Analisis/img/fondo.jpg);
+  background-repeat: no-repeat;
+  background-size: cover
+}
+
+.continuacion {
+  height: auto;
+  width: 100%;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.50) 0%, rgba(0, 0, 0, 0.671) 100%), url(../Analisis/img/fondo.jpg);
+  background-repeat: no-repeat;
+  background-size: cover
+}
+
+.fnd section {
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+  width: 100%;
+}
+
+.continuacion section {
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+  width: 100%;
+}
+
+.fnd section div {
+  margin: 7.5rem 5rem 0 5rem;
+  background-color: rgba(0, 0, 0, 0.644);
+}
+
+.continuacion section div {
+  margin: 0 5rem;
+  background-color: rgba(0, 0, 0, 0.644);
+}
+
+li a {
+  color: white;
+  text-decoration: none;
+  font-family: 'Amatic SC', cursive;
+  font-size: 30px;
+  padding: 2px 5px;
+}
+
+li a:hover {
+  color: rgb(115, 161, 214);
+  font-weight: 800;
+  font-weight: 800;
+  border-radius: 10px;
+}
+
+.head a img {
+  width: 400px;
+  margin: 0 80px;
+
+}
+
+.head nav {
+  background-color: rgba(0, 0, 0, 0.904);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 0rem;
+}
+
+.head nav ul {
+  display: inline-flex;
+  align-items: center;
+  margin: 0 100px 0 50px;
+}
+
+header nav li {
+  margin-right: 1.5rem;
+
+}
+
+.fnd h1 {
+  font-family: 'Oleo Script Swash Caps', cursive;
+  color: rgb(137, 106, 167);
+  text-align: center;
+  font-size: 70px;
+  justify-content: center;
+}
+
+.continuacion p {
+  font-size: 28px;
+  font-family: 'Zen Loop', cursive;
+  color: rgb(248, 248, 248);
+  font-weight: 550;
+  padding: 2px 10px;
+  text-align: justify;
+}
+
+.fnd p {
+  font-size: 28px;
+  font-family: 'Zen Loop', cursive;
+  color: rgb(248, 248, 248);
+  font-weight: 550;
+  padding: 2px 10px;
+  text-align: justify;
+}
